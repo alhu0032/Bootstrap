@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar|Open+Sans');
+@font-face;
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2,
+h5 {
+    font-family: 'Eczar', serif;
+}
+.navbar {
+    background-color: #2A6629;
+}
+.row {
+    margin-top: 20px;
+}
+.iconic:active,
+.iconic:focus,
+.iconic:hover {
+    color: #409C51;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #409C51;
+}
+#bootstrap-overide header li {
+    margin: 0;
+    float: none;
+}
+
+/***** index *****/
+
+.display-3 {
+    color: #2A6629;
+    text-align: center;
+    text-shadow: 1px 1px #409C51;
+}
+.my-2 {
+    border-top: 1px solid #2A6629;
+}
+.motto {
+    color: #2A6629;
+    text-align: right;
+}
+.btn {
+    background-color: #2A6629;
+    border: none;
+}
+.btn:active,
+.btn:focus,
+.btn:hover {
+    background-color: #56D16D;
+}
+
+/****** about *****/
+
+.about-title {
+    color: #2A6629;
+    text-align: center;
+}
+.about-motto {
+    color: #56D16D;
+    text-align: right;
+}
+.about-list {
+    color: #2A6629;
+}
+.author {
+    font-style: italic;
+}
+.journal {
+    color: #77C275;
+    font-weight: bold;
+}
+.journal:active,
+.journal:focus,
+.journal:hover {
+    color: #56D16D;
+    text-decoration: none;
+}
+
+/**** help *****/
+
+#bootstrap-overide img {
+    width: 100%;
+    height: auto;
+}
+#bootstrap-overide .card {
+    min-height: 580px;
+    border: 1px solid #9CAB44;
+}
+#bootstrap-overide .col {
+    margin-bottom: 1rem;
+}
+.help-title {
+    color: #2A6629;
+    text-align: center;
+    text-shadow: 0.5px 0.5px #9CAB44;
+}
+.help-text1 {
+    font-weight: bold;
+    color: #2A6629;
+}
+.card-title {
+    color: #243B23;
+    text-align: center;
+}
+.card-quote {
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+}
+
+/*** contact *****/
+
+.form-group {
+    color: #2A6629;
+}
+form {
+    border: 1px solid #2A6629;
+    border-radius: 5px;
+    padding: 15px;
+}
+.form-control {
+    border: 0.5px solid #2A6629;
+    font-size: 13px;
+}
+.contact-form {
+    margin-top: 1rem;
+}
+#emailHelp {
+    font-size: 10px;
+    color: #56D16D;
+}
+.address1 {
+    padding-top: 15px;
+    color: #9CAB44;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.address2 {
+    text-align: center;
+    font-style: italic;
+    padding-top: 5px;
+}
+@media screen and (min-width: 34rem) {
+    #bootstrap-overide header li {
+        margin-left: 1rem;
+        float: left;
+    }
+}
+@media screen and (min-width: 48rem) {
+    #bootstrap-overide .contact-form {
+        margin: 0;
+    }
+}
